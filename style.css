@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    background-color:rgb(79, 114, 180);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    color:rgba(209, 209, 255, 0.89);
+    }
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    height: 500px;
+    margin: 100px;
+    padding: 0;
+    background-color:rgba(168, 0, 0, 0.342);
+    border: 5px solid rgba(209, 209, 255, 0.89);
+    box-shadow: 10px 5px 10px rgba(24, 24, 107, 0.548);
+    border-radius: 15px;
+}    
+.box1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.value-box{
+    margin: 5px;
+    padding: 5px 20px 5px 0px;
+    background-color:rgba(241, 241, 255, 0.6);
+    border: 2px solid rgba(209, 209, 255, 0.89);
+    border-radius: 10px;
+    text-align: center;
+    font: bold 25px serif;
+}
+.selector {
+    font-family: 'helvetica neue', helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    border: 1px solid rgba(241, 241, 255, 0.6);
+    background:rgba(29, 67, 110, 0.651);
+    color:rgba(209, 209, 255, 0.89);
+    box-shadow: 1px 1px 2px rgba(24, 24, 107, 0.548);
+    border-radius: 10px;
+    padding: 10px 35px 10px 35px;
+    margin: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+#button {
+    font-family: 'helvetica neue', helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    border: 1px solid rgba(241, 241, 255, 0.6);
+    background:rgba(29, 67, 110, 0.651);
+    color:rgba(209, 209, 255, 0.89);
+    box-shadow: 1px 1px 2px rgba(24, 24, 107, 0.548);
+    border-radius: 10px;
+    padding: 15px 40px 15px 40px;
+    margin: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+span{
+    margin: 20px;
+    font-size: 40px;
+    background-color: rgba(25, 25, 36, 0.548);
+    border-radius: 5px;
+    padding: 5px;
+}
+#num-last {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 45%;
+    height: 5vh;
+    margin: 0px;
+    padding-top: 40px;
+    text-align: center;
+    color: rgba(24, 24, 107, 0.548);
+}

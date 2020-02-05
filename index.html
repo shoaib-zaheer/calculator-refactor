@@ -7,14 +7,15 @@
   <!-- this is the testing function for your logic -->
   <script src='./dependencies/testing.js'></script>
   <title>Calculator with JS(HTML & CSS)</title>
+  <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
   <div class="box">
-    <form class="box1">
-      <div>Value 1: <input type="text" id="value1" class="value-box"></div>
-      <div>Value 2: <input type="text" id="value2" class="value-box"></div>
+    <div class="box1">
+      <div>Enter Number 1: <input type="text" id="value1" class="value-box"></div>
+      <div>Enter Number 2: <input type="text" id="value2" class="value-box"></div>
     <div>
     Operator:
       <select id="operator" class="selector">
@@ -23,8 +24,9 @@
           <option value="div">Divide</option>
           <option value="mul">Multiply</option>
          </select>
-        <button type="button" id="button" >Calculate</button>
+        <button type="button" id="button">Calculate</button>
       </div>
+      <span>OutCome:</span> 
       <div id="num-last" class="value-box"></div>
     </form>
   </div>
