@@ -1,4 +1,4 @@
-function calculateHandler(event) {
+function calculatehandler(a, b, op) {
   // read & process user input from event
 
   // pass user input through core logic
@@ -10,3 +10,4 @@ function calculateHandler(event) {
   // return true for the browser
   return true;
 }
+

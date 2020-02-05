@@ -1,0 +1,54 @@
+body{
+    margin: 20px;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    color: cadetblue;
+}
+section{
+    height: 300px;
+    width: 300px;
+    background-color: antiquewhite;
+    padding: 30px;
+    margin: auto;
+    box-shadow: cadetblue 0px 8px 10px;
+    border-radius: 5px;
+}
+#operator{
+    height: 30px;
+}
+form input{
+    margin: 10px;
+    height: 30px;
+    width: 155px;
+    border: none;
+    font-size: 20px;
+}
+form select{
+       margin: 10px;
+}
+form button{
+            margin-top: 10px;
+            margin-left: 10px;
+            background-color: cadetblue;
+            color: white;
+            height: 35px;
+}
+h3{
+    padding-top: 30px;
+    text-align: center;
+}
+article{
+    height: 40px;
+    width: 200px;
+    background-color: cadetblue;
+    margin-left: 60px ;
+    box-shadow: cadetblue 0px 5px 10px;
+}
+#result{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+
+}

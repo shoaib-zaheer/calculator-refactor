@@ -1,16 +1,35 @@
 <html>
-
 <head>
-
   <!-- this script is to help evaluate your deployed project -->
   <script src='./dependencies/evaluation.js'></script>
   <!-- this is the testing function for your logic -->
   <script src='./dependencies/testing.js'></script>
-
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <h1> Calculator</h1>
+ <section>
+      <form>
+         value 1: <input type="text" id="value1"><br>
+         value 2: <input type="text" id="value2"><br>
+         operator: <select id="operator">
+                      <option value="add">add</option>
+                      <option value="min">minus</option>
+                      <option value="div">divide</option>
+                      <option value="mul">multiply</option>
+                      </select>
+         <button type="button" onclick="calc()">calculate</button>
+      </form>
+      <h3>Result</h3>
+      <article>
+         <div id="result"></div>
+      </article>
+ </section>
+
+ <script src="scripts/handler.js"></script>
+<script src="scripts/listener.js"></script>
+<script src="scripts/logic.js"></script>
 
 </body>
-
 </html>
