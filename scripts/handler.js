@@ -10,7 +10,7 @@ function calc(a, b, op) {
   var calculate; // user click here to calculate result
   
   // render output to DOM for user
-document.getElementById("result").innerHTML = a + op + b + "=" + calculate; // this is printed in screen
+document.getElementById("result").innerHTML = a + op + b  + calculate; // this is printed in screen
   
 // log user action for developers
 console.log(calculate) // this is printed only in browser 
