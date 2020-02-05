@@ -1,8 +1,8 @@
 function calc() {
-  var a = parseInt(document.querySelector("#value1").value);
-  var b = parseInt(document.querySelector("#value2").value);
-  var op = document.querySelector("#operator").value;
-  var calculate;
+  var a = parseInt(document.querySelector("#value1").value); // use "parseInt" to change  the string input to number
+  var b = parseInt(document.querySelector("#value2").value); // use "parseInt" to change  the string input to number
+  var op = document.querySelector("#operator").value;  // select Area
+  var calculate;  // This is click action area for calculate your number
   
   if (op == "add"){
     calculate = a + b;
