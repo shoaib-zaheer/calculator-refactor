@@ -6,11 +6,28 @@
   <script src='./dependencies/evaluation.js'></script>
   <!-- this is the testing function for your logic -->
   <script src='./dependencies/testing.js'></script>
+  <title>Calculator with JS(HTML & CSS)</title>
 
 </head>
 
 <body>
-
+  <div class="box">
+    <form class="box1">
+      <div>Value 1: <input type="text" id="value1" class="value-box"></div>
+      <div>Value 2: <input type="text" id="value2" class="value-box"></div>
+    <div>
+    Operator:
+      <select id="operator" class="selector">
+          <option value="add">Add</option>
+          <option value="min">Minus</option>
+          <option value="div">Divide</option>
+          <option value="mul">Multiply</option>
+         </select>
+        <button type="button" id="button" >Calculate</button>
+      </div>
+      <div id="num-last" class="value-box"></div>
+    </form>
+  </div>
 </body>
 
 </html>
