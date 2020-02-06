@@ -16,6 +16,8 @@
 4) [`Handler`](https://github.com/shoaib-zaheer/calculator-refactor/blob/handler/descraptionAll/handler.md)
 5) [`Logic`]()
 
+- [**READ.More**](https://github.com/shoaib-zaheer/calculator-refactor/blob/master/development-strategy.md)
+
 
 > * Follow [this tutorial from `mmtuts`](https://www.youtube.com/watch?v=qQEYAOPWDzk) and refactor your finished code into the files of this repository.  Be sure to organize your development process using Git Branches
 > * To learn more about how to organize your code & how to write development-strategies for this project, you can study the [using-user-input exercises](https://github.com/hackyourfuturebelgium/using-user-input)
