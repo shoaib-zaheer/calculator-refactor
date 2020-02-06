@@ -1,6 +1,12 @@
-# Name of Project
+# Calculator-Refactor
 
-user story
+
+> My first glance to this project or `JavaScript` was a difficult abstract image, but as much as am reading more I image shapes are taking place.
+
+##### `Project`
+
+> As all the project is easy to process in several parts *(`DOM`, `Style`, `Listener`, `Handler` & `logic`)*.
+****
 
 - [wireframe](#Wireframe)
 - [DOM](#DOM)
@@ -62,3 +68,5 @@ user story
 
 ## Wireframe
 ![calculatorjs](https://user-images.githubusercontent.com/59531766/73894288-49d40e00-487c-11ea-8150-6359d8269555.png)
+
+-[Top](#Calculator-Refactor)
