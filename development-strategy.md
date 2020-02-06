@@ -2,7 +2,7 @@
 
 user story
 
-[wireframe](#wireframe)
+[wireframe](#calculatorjs)
 
 
 ## DOM
