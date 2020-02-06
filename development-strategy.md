@@ -2,7 +2,7 @@
 
 user story
 
-[wireframe](#calculatorjs)
+[wireframe](#Wireframe)
 
 
 ## DOM
@@ -55,5 +55,5 @@ user story
 | --- | --- | --- | --- |
 | | | | |
 
-
+## Wireframe
 ![calculatorjs](https://user-images.githubusercontent.com/59531766/73894288-49d40e00-487c-11ea-8150-6359d8269555.png)
