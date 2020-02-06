@@ -3,7 +3,6 @@
 user story
 
 - [wireframe](#Wireframe)
-
 - [DOM](#DOM)
 - [Styling](#Styling)
 - [Listeners](#Listeners)
