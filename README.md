@@ -9,13 +9,12 @@
 > As all the project is easy to process in several parts *(`DOM`, `Style`, `Listener`, `Handler` & `logic`)*, 
 
 ##### Branches
-
 - [live demo]()
-- [x]  [DOM](https://github.com/shoaib-zaheer/calculator-refactor/commit/cc56ea925b79d5e682d9cec0e43e4152c84577e4)
-- [x]  [Style]()
-- [x]  [Listener](https://github.com/shoaib-zaheer/calculator-refactor/commit/894f3fca35243758a2f7633a5fc212e4a38bd370)
-- [x]  [Handler](https://github.com/shoaib-zaheer/calculator-refactor/commit/2cc95300094420197fa3c5939d00e0ef7aa6823c)
-- [ ]  [Logic]()
+- [DOM](https://github.com/shoaib-zaheer/calculator-refactor/commit/cc56ea925b79d5e682d9cec0e43e4152c84577e4)
+- [Style]()
+- [Listener](https://github.com/shoaib-zaheer/calculator-refactor/commit/894f3fca35243758a2f7633a5fc212e4a38bd370)
+- [Handler](https://github.com/shoaib-zaheer/calculator-refactor/commit/2cc95300094420197fa3c5939d00e0ef7aa6823c)
+- [Logic]()
 
 - [**READ.More**](https://github.com/shoaib-zaheer/calculator-refactor/blob/master/development-strategy.md)
 
