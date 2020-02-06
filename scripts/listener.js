@@ -16,3 +16,4 @@ function calc() {
   document.querySelector("#result").innerHTML = calculate;
   }
   
+  
