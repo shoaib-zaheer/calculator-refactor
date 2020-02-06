@@ -2,7 +2,13 @@
 
 user story
 
-[wireframe](#Wireframe)
+- [wireframe](#Wireframe)
+
+- [DOM](#DOM)
+- [Styling](#Styling)
+- [Listeners](#Listeners)
+- [Handlers](#Handlers)
+- [Logic](#Logic)
 
 
 ## DOM
