@@ -1,4 +1,4 @@
-function calculateHandler(event) {
+function calc() {
   // read & process user input from event
     /* var a = document.querySelector('#value1').value; // document will call querySelector to take string from html file*/
     var a = parseInt(document.querySelector('#value1').value); //with parseInt we convert the string to number.
@@ -17,9 +17,10 @@ function calculateHandler(event) {
     calculate = a * b;
     }
   // render output to DOM for user
-  document.querySelector("#result").addEventListener(scalculateHandler, () =>{
+  // document.querySelector("#result").addEventListener(scalculateHandler, () =>{
+   document.querySelector("#result").innerHTML = calculate;
   // log user action for developers
-    console.log(calculate);})
+  //  console.log(calculate);
   // return true for the browser
   return true;
 }
