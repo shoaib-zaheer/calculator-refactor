@@ -35,7 +35,15 @@ function doMath(operation, a, b) {
   }
   // write your code below this comment:
 
-
+  if (op == "add") {
+    calculate = a + b;
+    } else if (op == "min") {
+    calculate = a - b;
+    } else if ( op == "div") {
+    calculate = a / b;
+    } else if (op == "mul") {
+    calculate = a * b;
+    }
 
 }
 
