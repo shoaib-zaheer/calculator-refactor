@@ -35,17 +35,21 @@ function doMath(operation, a, b) {
   }
   // write your code below this comment:
 
-  if (op == "add") {
+  let calculate = 0;
+
+  if (operation == "add") {
     calculate = a + b;
-    } else if (op == "min") {
+  } else if (operation == "min") {
     calculate = a - b;
-    } else if ( op == "div") {
+  } else if (operation == "div") {
     calculate = a / b;
-    } else if (op == "mul") {
+  } else if (operation == "mul") {
     calculate = a * b;
-    }
+  } else{
+    calculate = 'invalid operation';
+  }
 
+  return calculate;
 }
-
 
 testing(doMath, doMathTests);

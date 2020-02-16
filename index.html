@@ -6,12 +6,8 @@
   <script src='./dependencies/evaluation.js'></script>
   <!-- this is the testing function for your logic -->
   <script src='./dependencies/testing.js'></script>
-  <script src="./scripts/handler.js"></script>
   <title>Calculator with JS(HTML & CSS)</title>
   <link rel="stylesheet" href="style.css">
-
-
-
 </head>
 
 <body>
@@ -27,13 +23,14 @@
           <option value="div">Divide</option>
           <option value="mul">Multiply</option>
          </select>
-        <button type="button" id="button" onclick="calc()">Calculate</button>
+        <button type="button" id="calcButton" onclick="calc()">Calculate</button>
       </div>
       <span>OutCome:</span> 
       <div id="result" class="value-box result1"></div>
     </form>
   </div>
+  <script src="./scripts/logic.js"></script>
+  <script src="./scripts/handler.js"></script>
+  <script src="./scripts/listener.js"></script>
 </body>
-<script src="./scripts/listener.js"></script>
-
 </html>

@@ -1,3 +1,1 @@
-document.querySelector("button").addEventListener("click", () =>{
-    console.log("Button Must Work!")
-})
+document.querySelector("#calcButton").addEventListener("click", calc);
