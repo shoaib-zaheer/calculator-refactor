@@ -2,8 +2,8 @@ function calc(a, b, op) {
   
   // read & process user input from event
   // this is place for events(action for giving numbers) of users
-  var a = parseInt(document.querySelector("#value1").value); // user input value 1 here
-  var b = parseInt(document.querySelector("#value2").value); // user input value 2 here
+  var a = parseFloat(document.querySelector("#value1").value); // user input value 1 here
+  var b = parseFloat(document.querySelector("#value2").value); // user input value 2 here
   var op = document.querySelector("#operator").value; // user select an option here
   
   
