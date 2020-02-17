@@ -1,1 +1,1 @@
-document.querySelector("#result").innerHTML = calculate;
+document.querySelector("#clickButton").innerHTML = calculate;
